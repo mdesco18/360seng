@@ -1,0 +1,1 @@
+This repository is designated for coding assignments created for the course SENG360 Security Engineering taught by Dr. Jens Weber at the University of Victoria during the Fall 2018 semester. All code is entirely authored by Marc-Andre Descoteaux (mdesco18) and is subject to copyright. 
