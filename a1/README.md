@@ -4,14 +4,21 @@ Author: Marc-Andre Descoteaux
 Student: V00847029 mdesco18@uvic.ca
 Project: SENG360 a1
 
-This program is designed to determine the key used in aes-128-cbc encryption from known plaintext, ciphertext, and IV.
+This program is designed to determine the key used in aes-128-cbc encryption from known plaintext, ciphertext, IV and a dictonary of common english words shorter than 16 characters as keys. It utilizes the `cryptography` module available at https://cryptography.io/en/latest 
 
-To run:
+	usage: KeyFinder.py [-h] [-p PLAINFILE] [-c CIPHERFILE] [-iv IVFILE] [-d DICTFILE] [-D] [-o [OUTFILE]]
 
-	invoke "python KeyFinder.py <plaintext.txt> -o <key.txt>" at the command line
 	
-	Additionally:
-
-	"--debug" or "--d" may be used as the 3rd argument instead of -o to print out intermediate object information used for debugging.
-
-	To print to the console, omit <key.txt>.
+	optional arguments:
+	  -h, --help            show this help message and exit
+	  -p PLAINFILE, --infile PLAINFILE
+							the plaintext file 
+	  -c CIPHERFILE, --cipher CIPHERFILE
+							the ciphertext file in hex string format
+	  -iv IVFILE, --vector IVFILE
+							the initialization vector hex file in hex string format
+	  -d DICTFILE, --dictionary DICTFILE
+							the dictionary of keys
+	  -D, --debug           the debugging argument
+	  -o [OUTFILE], --outfile [OUTFILE]
+							the outfile
