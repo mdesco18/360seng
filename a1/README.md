@@ -12,11 +12,11 @@ This program is designed to determine the key used in aes-128-cbc encryption fro
 	optional arguments:
 	  -h, --help            show this help message and exit
 	  -p PLAINFILE, --infile PLAINFILE
-							the plaintext file 
+							the plaintext file in ascii
 	  -c CIPHERFILE, --cipher CIPHERFILE
-							the ciphertext file in hex string format
+							the ciphertext file in ascii
 	  -iv IVFILE, --vector IVFILE
-							the initialization vector hex file in hex string format
+							the initialization vector hex file in ascii
 	  -d DICTFILE, --dictionary DICTFILE
 							the dictionary of keys
 	  -D, --debug           the debugging argument
