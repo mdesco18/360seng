@@ -191,9 +191,8 @@ def main():
 	
 	
 	"""
-	Gathering objects from sys.args namespace
+	Gather objects from sys.args namespace
 	"""
-	
 	plainfile = args.plainfile[0]
 	plaintext = plainfile.read()
 	plainfile.close()
